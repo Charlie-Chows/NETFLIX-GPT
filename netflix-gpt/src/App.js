@@ -1,10 +1,10 @@
 
-import './App.css';
+import Body from "./Components/Body";
 
 function App() {
   return (
-    <div className=" text-3xl">
-      HELLO ZX10R
+    <div>
+      <Body />
     </div>
   );
 }
