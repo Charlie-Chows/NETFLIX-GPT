@@ -1,6 +1,12 @@
 import Browse from "./Browse";
 import Login from "./Login";
-import {createBrowserRouter,RouterProvider,} from "react-router-dom";
+import {createBrowserRouter,RouterProvider,Outlet} from "react-router-dom";
+
+const Applayout = () => {
+    <div className="app">
+       <Outlet/>
+    </div>
+}
 
 const Body = ()=>{
     const appRouter = createBrowserRouter([
