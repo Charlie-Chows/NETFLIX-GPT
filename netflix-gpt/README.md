@@ -1,6 +1,7 @@
 # Netflix - GPT Journal 
     - create-react-app
     - config tailwind 
+    - routing setup
 
 # Features 
     - Authentication Page 
