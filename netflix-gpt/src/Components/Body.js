@@ -1,12 +1,6 @@
 import Browse from "./Browse";
 import Login from "./Login";
-import {createBrowserRouter,RouterProvider,Outlet} from "react-router-dom";
-
-const Applayout = () => {
-    <div className="app">
-       <Outlet/>
-    </div>
-}
+import {createBrowserRouter,RouterProvider} from "react-router-dom";
 
 const Body = ()=>{
     const appRouter = createBrowserRouter([
@@ -19,14 +13,11 @@ const Body = ()=>{
             element: <Browse />
         }
     ]);
-   // console.log(createBrowserRouter);
-   //console.log(appRouter);
+
     return(
 
         <div>
             <RouterProvider router={appRouter}/>
-           {/*  <Browse/>
-            <Login/> */}
         </div>
     );
     
