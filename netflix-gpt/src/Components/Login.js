@@ -9,7 +9,8 @@ const Login = () => {
 
        {/* BACKGROUND IAMGE APPEAR ONLY ABOVE MEDIUM SCREENS */}
       <div className=" relative z-10 min-h-screen bg-black  md:bg-transparent">
-        <img className="hidden md:block min-h-screen w-full h-full bg-cover bg-center" src={BG_URL} alt="Netflix Background Image On login page" />       
+        <img className="hidden md:block min-h-screen w-full h-full bg-cover bg-center" src={BG_URL} alt="Netflix Background Image On login page" />  
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>     
       </div>
 
 
