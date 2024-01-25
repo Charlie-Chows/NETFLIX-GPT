@@ -2,6 +2,8 @@
     - create-react-app
     - config tailwind 
     - routing setup
+    - login form ( responsive )
+    - sign up form 
 
 # Features 
     - Authentication Page 
