@@ -7,6 +7,10 @@ const Login = () => {
 
   const [signInForm,setSignInForm] = useState(true);
 
+  const handleButtonClick = () => {
+    
+  }
+
   const toggleSignInForm = () => {
     setSignInForm(!signInForm);
   }
@@ -27,7 +31,7 @@ const Login = () => {
         {!signInForm && <input type="text" placeholder="Email Address" className="p-2 my-5 h-12 w-full bg-zinc-800 rounded-lg" />}
         <input type="text" placeholder="Full Name" className="p-2 my-5 h-12 w-full bg-zinc-800 rounded-lg" />
         <input type="password" placeholder="Password" className="p-2 my-5 h-12 w-full bg-zinc-800 rounded-lg" />
-        <button className="p-0.5 my-6 w-full h-12 rounded-lg bg-red-700">{signInForm ? "Sign In" : "Sign Up"}</button>
+        <button className="p-0.5 my-6 w-full h-12 rounded-lg bg-red-700" onClick={handleButtonClick}>{signInForm ? "Sign In" : "Sign Up"}</button>
         <p className="py-4  text-zinc-500"onClick={toggleSignInForm}>{signInForm ? "New to Netflix ? " : "Already a user ? "} <span className="text-white cursor-pointer hover:underline">{signInForm ? "Sign Up now" : "Sign In now"}</span> </p>
 
       </form>
