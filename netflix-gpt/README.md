@@ -4,6 +4,8 @@
     - routing setup
     - login form ( responsive )
     - sign up form 
+    - Form Handling ( Formik )
+    - Form Validation ( Yup )
 
 # Features 
     - Authentication Page 
